@@ -1,0 +1,58 @@
+.main{
+  /* border: 2px solid black; */
+  width: 50%;
+  height: 600px;
+  margin-left: 30%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* display: flex; */
+  gap: 10px;
+}
+.depart-date{
+  color: rgb(245, 77, 77);
+}
+.image{
+  height: 250px;
+  width: 350px;
+}.mainn{
+  display:grid;
+  grid-template-columns: repeat(1,2fr);
+  /* border: 1px solid red; */
+  /* gap: 20px; */
+}
+.wel{
+  margin-left:30%;
+}
+.main b{
+  margin-left: 23%;
+}
+.main input{
+  margin-left:23%;
+  width: 40%;
+}
+button{
+  margin-left: 50%;
+}
+.App{
+  background-color: rgb(223, 213, 213);
+}
+
+@media only screen and (min-width:0px) and (max-width:320px) {
+  .App{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      grid-gap: 10px;
+  }
+}
+
+@media only screen and (min-width:321px) and (max-width:620px) {
+  .App{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      /* grid-gap: 10px; */
+  }
+}
+.append-div{
+  margin-left: 30%;
+  margin-top: 10px;
+}
+
